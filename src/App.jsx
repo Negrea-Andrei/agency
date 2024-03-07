@@ -21,7 +21,7 @@ export default function App() {
   return (
     <>
       <Navbar theme={theme} setTheme={setTheme} />
-      <Hero />
+      <Hero theme={theme} />
     </>
   );
 }
