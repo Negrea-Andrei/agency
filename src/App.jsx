@@ -11,14 +11,24 @@ export default function App() {
 
   const element = document.documentElement;
   useEffect(() => {
-    if(theme === "dark") {
-      element.classList.add("dark")
+    if (theme === "dark") {
+      element.classList.add("dark");
       localStorage.setItem("theme", "dark");
-    }else{
-      element.classList.remove("dark")
+    } else {
+      element.classList.remove("dark");
       localStorage.setItem("theme", "light");
     }
-  }, [theme])
+  }, [theme]);
+
+  useEffect(() => {
+    AOS.init({
+      offset: 100,
+      duration: 600,
+      easing: "ease-in-sine",
+      delay: 100,
+    });
+    AOS.refresh();
+  }, []);
 
   return (
     <>

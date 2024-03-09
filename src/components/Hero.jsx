@@ -8,7 +8,7 @@ const Hero = ({ theme }) => {
     <div className="bg-[#aadefc] dark:bg-dark dark:text-white relative -z-20">
       <div className="container min-h-[620px] flex">
         <div className="grid place-items-center grid-cols-1 sm:grid-cols-2">
-          <div className="order-1 sm:order-2">
+          <div data-aos="zoom-in" className="order-1 sm:order-2">
             <img
               src={theme === "dark" ? blue_car : black_car}
               alt="car"
@@ -16,17 +16,17 @@ const Hero = ({ theme }) => {
             />
           </div>
           <div className="order-2 sm:order-1 space-y-5 sm:pr-32">
-            <p className="dark:text-[#1E90FF] text-[#000000] text-2xl font-serif">
+            <p data-aos="fade-up" data-aos-delay="500" className="dark:text-[#1E90FF] text-[#000000] text-2xl font-serif">
               Drive safe
             </p>
-            <h1 className="text-5xl font-semibold lg:text-7xl font-serif">
+            <h1 data-aos="fade-up" data-aos-delay="1000" className="text-5xl font-semibold lg:text-7xl font-serif">
               Rent a'Car
             </h1>
-            <p>
+            <p data-aos="fade-up" data-aos-delay="1500">
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
-            <button className="btn bg-primary text-black px-6 py-2 rounded-md hover:bg-primary/80 duration-300">
+            <button data-aos="fade-up" data-aos-delay="2000" className="btn bg-primary text-black px-6 py-2 rounded-md hover:bg-primary/80 duration-300">
               {" "}
               Let's GO!
             </button>
