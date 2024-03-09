@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function App() {
   const [theme, setTheme] = useState(
