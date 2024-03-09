@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components{
+    .button-outline{
+        @apply rounded-md
+        border-2 dark:border-primary border-dark
+        dark:hover:border-primary/50 hover:border-primary/100
+        dark:hover:text-dark dark:hover:bg-white dark:text-gray-200 duration-300 py-2 px-9 text-blue-700 hover:text-primary hover:bg-black/80 tracking-wider hover:font-semibold
+
+    }
+}

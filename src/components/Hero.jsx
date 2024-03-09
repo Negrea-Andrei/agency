@@ -23,7 +23,7 @@ const Hero = ({ theme }) => {
               Rent a'Car
             </h1>
             <p data-aos="fade-up" data-aos-delay="1500">
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
             <button data-aos="fade-up" data-aos-delay="2000" className="btn bg-primary text-black px-6 py-2 rounded-md hover:bg-primary/80 duration-300">
