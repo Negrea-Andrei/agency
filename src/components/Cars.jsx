@@ -52,6 +52,9 @@ const Cars = () => {
               </div>
             ))}
           </div>
+          <div data-aos="fade-up" data-aos-duration={1600} className="grid place-content-center mt-6">
+            <button className="button-outline">Let's drive</button>
+          </div>
         </div>
       </div>
     </div>
