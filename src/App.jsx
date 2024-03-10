@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import WhyUs from "./components/WhyUs";
 
 export default function App() {
   const [theme, setTheme] = useState(
@@ -36,6 +37,7 @@ export default function App() {
       <Navbar theme={theme} setTheme={setTheme} />
       <Hero theme={theme} />
       <About />
+      <WhyUs />
     </>
   );
 }
