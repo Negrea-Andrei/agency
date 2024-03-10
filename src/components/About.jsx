@@ -15,12 +15,10 @@ const About = () => {
                 About us
               </h1>
               <p data-aos="fade-up">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              At Rent a'Car, we offer more than just vehicles; we provide a gateway to effortless travel. With a fleet of contemporary models, our commitment to seamless experiences ensures your journey is as memorable as the destination itself.
               </p>
               <p data-aos="fade-up">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              As your trusted rental partner, Rent a'Car combines convenience with customer-centric service. Discover the freedom of the road with us – where every ride becomes an opportunity for adventure, and every traveler is met with personalized care and reliability.
               </p>
               <button data-aos="fade-up"
                 className="button-outline"

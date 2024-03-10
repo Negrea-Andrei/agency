@@ -1,6 +1,7 @@
 import React from "react";
 import { BiSolidSun } from "react-icons/bi";
 import { BiSolidMoon } from "react-icons/bi";
+import { PiSteeringWheelBold } from "react-icons/pi";
 
 const Links = [
   {
@@ -31,7 +32,7 @@ const Navbar = ({theme, setTheme}) => {
       <div className="container">
         <div className="flex justify-between items-center">
           <div>
-            <h1 className="text-3xl font-serif font-bold">Rent a'Car</h1>
+          <PiSteeringWheelBold className="text-4xl sm:text-5xl" />
           </div>
           <div className="hidden md:block">
             <ul className="flex items-center gap-6">
