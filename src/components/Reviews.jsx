@@ -25,14 +25,14 @@ const Reviews = () => {
             data-aos-duration={1000}
             className="text-3xl font-semibold text-center sm:text-4xl font-serif"
           >
-            What Our Clients Say About Us
+            What Our Clients Say About Us?
           </p>
           <p
             data-aos="fade-up"
             data-aos-duration={1000}
             className="text-center sm:px-44 font-serif"
           >
-            Lorem ipsum.
+            Just listen to what they have to say!
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 sm:grid-cols-2 gap-8 text-black dark:text-primary">
