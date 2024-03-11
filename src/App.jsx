@@ -6,6 +6,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import WhyUs from "./components/WhyUs";
 import Cars from "./components/Cars";
+import Reviews from "./components/Reviews";
 
 export default function App() {
   const [theme, setTheme] = useState(
@@ -40,6 +41,7 @@ export default function App() {
       <About />
       <WhyUs />
       <Cars />
+      <Reviews />
     </>
   );
 }
