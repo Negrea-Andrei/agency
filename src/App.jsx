@@ -8,10 +8,11 @@ import WhyUs from "./components/WhyUs";
 import Cars from "./components/Cars";
 import Reviews from "./components/Reviews";
 import Footer from "./components/Footer";
+import Contact from "./components/Contact";
 
 export default function App() {
   const [theme, setTheme] = useState(
-    localStorage.getItem("theme") ? localStorage.getItem("theme") : "dark"
+    localStorage.getItem("theme") ? localStorage.getItem("theme") : "light"
   );
 
   const element = document.documentElement;
@@ -43,6 +44,7 @@ export default function App() {
       <WhyUs />
       <Cars />
       <Reviews />
+      <Contact />
       <Footer />
     </>
   );

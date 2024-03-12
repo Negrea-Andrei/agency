@@ -5,7 +5,7 @@ import black_car from "../assets/black_car.png";
 const Hero = ({ theme }) => {
   return (
     <div className="bg-[#aadefc] dark:bg-dark dark:text-white relative -z-20">
-      <div className="container min-h-[620px] flex">
+      <div className="container min-h-[800px] flex">
         <div className="grid place-items-center grid-cols-1 sm:grid-cols-2">
           <div data-aos="zoom-in" className="order-1 sm:order-2">
             <img
@@ -30,7 +30,7 @@ const Hero = ({ theme }) => {
               Rent a'Car
             </h1>
             <p data-aos="fade-up" data-aos-delay="1500">
-              Embark on a seamless journey with Rent a'Car – where every road
+              Embark on a seamless journey with Rent a'Car - where every road
               becomes an opportunity to explore. Offering a diverse fleet of the
               latest car models, our reliable and convenient rental services
               ensure you experience the freedom of the open road. Whether it's
