@@ -3,7 +3,7 @@ import about_car from "../assets/about_car.png";
 
 const About = () => {
   return (
-    <div className="dark:bg-black dark:text-white duration-300 sm:grid sm:place-items-center sm:min-h-[600px]">
+    <div id="about" className="dark:bg-black dark:text-white duration-300 sm:grid sm:place-items-center sm:min-h-[600px]">
       <div className="container">
         <div className="grid grid-cols-1 sm:grid-cols-2 place-items-center ">
           <div data-aos="slide-right" data-aos-duration="1000" data-aos-once="false">

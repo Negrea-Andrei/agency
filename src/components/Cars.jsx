@@ -25,7 +25,7 @@ const Cars = () => {
     },
   ];
   return (
-    <div className="pb-24 pt-12 sm:min-h-[600px] dark:bg-black dark:text-white">
+    <div id="cars" className="pb-24 pt-12 sm:min-h-[600px] dark:bg-black dark:text-white">
       <div className="container">
         <h1
           data-aos="fade-up"
