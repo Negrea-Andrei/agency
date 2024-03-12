@@ -11,10 +11,10 @@ const Reviews = () => {
       name: "Paul Walker",
       photo: racer3,
       description: "This was the best car i ever droved!",
-      delay: 1000,
+      delay: 900,
     },
-    { name: "Neil Bonnett", photo: racer, description: "The service was amazing!", delay: 1500 },
-    { name: "Maria de Villota", photo: racer2, description: "I will definitely come back to this car rental!", delay: 2000 },
+    { name: "Neil Bonnett", photo: racer, description: "The service was amazing!", delay: 1200 },
+    { name: "Maria de Villota", photo: racer2, description: "I will definitely come back to this car rental!", delay: 1400 },
   ];
   return (
     <div className="dark:bg-dark dark:text-white text-dark py-14 sm:pb-24">
