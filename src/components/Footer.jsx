@@ -35,38 +35,24 @@ const Footer = () => {
           <h3 className="text-2xl font-bold text-black dark:text-white">Explore</h3>
           <ul className="py-6 text-black dark:text-white">
             <li className="py-2">Home</li>
-            <li className="py-2">About</li>
-            <li className="py-2">Course</li>
-            <li className="py-2">Blog</li>
+            <li className="py-2">ABOUT</li>
+            <li className="py-2">CARS</li>
+            <li className="py-2">BOOKING</li>
             <li className="py-2">Contact</li>
           </ul>
         </div>
 
         <div>
-          <h3 className="text-2xl font-bold text-black dark:text-white">Category</h3>
+          <h3 className="text-2xl font-bold text-black dark:text-white">Models</h3>
           <ul className="py-6 text-black dark:text-white">
-            <li className="py-2">Design</li>
-            <li className="py-2">Development</li>
-            <li className="py-2">Marketing</li>
-            <li className="py-2">Business</li>
-            <li className="py-2">Lifestyle</li>
-            <li className="py-2">Photography</li>
-            <li className="py-2">Music</li>
+            <li className="py-2">Mercedes-Benz</li>
+            <li className="py-2">Tesla</li>
+            <li className="py-2">BMW</li>
+            <li className="py-2">Camaro</li>
+            <li className="py-2">Audi</li>
+            <li className="py-2">Ford</li>
           </ul>
-        </div>
-
-        <div className="max-[780px]:col-span-2">
-          <h3 className="text-2xl font-bold">Subscribe</h3>
-          <form className="py-4">
-            <input
-              className="bg-[#F2F3F4] p-4 w-full rounded"
-              placeholder="Email here"
-            />
-            <button className="max-[780px]:w-full my-4 px-5 py-3 rounded-md bg-[#3a7fc0] dark:bg-primary text-white dark:text-dark font-medium">
-              Subscribe Now
-            </button>
-          </form>
-        </div>
+        </div>        
       </div>
     </div>
   );
