@@ -46,17 +46,17 @@ const Footer = () => {
             Explore
           </h3>
           <ul className="py-6 text-black dark:text-white">
-            <li className="py-2 hover:text-yellow-400">
-              <a href="#home">Home</a>
+            <li className="py-2">
+              <a className="hover:text-yellow-400" href="#home">Home</a>
             </li>
-            <li className="py-2 hover:text-yellow-400">
-              <a href="#about">ABOUT</a>
+            <li className="py-2">
+              <a className="hover:text-yellow-400" href="#about">ABOUT</a>
             </li>
-            <li className="py-2 hover:text-yellow-400">
-              <a href="#cars">CARS</a>
+            <li className="py-2">
+              <a className="hover:text-yellow-400" href="#cars">CARS</a>
             </li>
-            <li className="py-2 hover:text-yellow-400">
-              <a href="">BOOKING</a>
+            <li className="py-2">
+              <a className="hover:text-yellow-400" href="">BOOKING</a>
             </li>
           </ul>
         </div>
@@ -66,23 +66,23 @@ const Footer = () => {
             Models
           </h3>
           <ul className="py-6 text-black dark:text-white">
-            <li className="py-2  hover:text-yellow-400">
-              <a href="#">Mercedes-Benz</a>
+            <li className="py-2">
+              <a className="hover:text-yellow-400" href="#">Mercedes-Benz</a>
             </li>
-            <li className="py-2  hover:text-yellow-400">
-              <a href="#">Tesla</a>
+            <li className="py-2">
+              <a className="hover:text-yellow-400" href="#">Tesla</a>
             </li>
-            <li className="py-2  hover:text-yellow-400">
-              <a href="#">BMW</a>
+            <li className="py-2">
+              <a className="hover:text-yellow-400" href="#">BMW</a>
             </li>
-            <li className="py-2 hover:text-yellow-400">
-              <a href="#">Camaro</a>
+            <li className="py-2">
+              <a className="hover:text-yellow-400" href="#">Camaro</a>
             </li>
-            <li className="py-2  hover:text-yellow-400">
-              <a href="#">Audi</a>
+            <li className="py-2">
+              <a className="hover:text-yellow-400" href="#">Audi</a>
             </li>
-            <li className="py-2  hover:text-yellow-400">
-              <a href="#">Ford</a>
+            <li className="py-2">
+              <a className="hover:text-yellow-400" href="#">Ford</a>
             </li>
           </ul>
         </div>
