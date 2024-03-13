@@ -4,7 +4,7 @@ import { FaFacebookF, FaLinkedinIn, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="w-full dark:bg-black bg-primary px-13 py-24">
+    <div className="w-full dark:bg-black bg-primary flex justify-center py-24">
       <div className="md:max-w-[1480px] m-auto grid md:grid-cols-5 max-[780px]:grid-cols-2  gap-8 max-w-[600px]  px-4 md:px-0">
         <div className="col-span-2">
           <PiSteeringWheelBold className="text-4xl sm:text-5xl dark:text-white" />
